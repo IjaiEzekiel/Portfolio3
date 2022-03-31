@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    color: #444444;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  line-height: 1.4;
+}
+img {
+  border: 1px solid grey;
+}
+p.classname {
+  color: red;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.profile {
+  border: 1px solid grey;
+  width: 200px;
+  height:200px;
+  float: left;
+}
+img.favourite {
+  border: 1px solid grey;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+img.profile {
+  padding: 5px;
+}
+img.profile {
+  float: left;
+  margin-left: 0px;
+  border: 0px;
+}
+img.favourite {
+  padding: 5px;
+  margin: 10px;
+}
+img.logo {
+  margin: 0 auto;
+  display: block;
+}
+section.banner {
+  background-image: url('../image/D-73EWBUYAA5eB1.jpeg');
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-attachment: scroll;
+}
+section.banner {
+    background: url('../image/D-73EWBUYAA5eB1.jpeg');
+    color: #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+  section.banner p {
+    font-size: 18px;
+}
+  section.banner h1 {
+    text-transform: uppercase;
+}
+
+section.about {
+  background: url(../image/carbon_fibre.png);
+  background-size: 100% 100%;
+  display: block;
+  height: 100%;
+}
+section.about {
+  overflow: hidden;
+}
+  section.about h2 {
+    text-align: center;
+    overflow: hidden;
+}
+section.about p{
+  color: red;
+}
+  section.favourites {
+  text-align: center;
+}
+  section.contact {
+    text-align: center;
+    font-size: 18px;
+    background: url('../images/carbon_fibre.png'); 
+}
+  section.contact img {
+  margin: 10px;
+}
+  section.box {
+    padding: 50px 100px;
+}
+  section.box h2, section.box h3 {
+    color: #A8258D;
+}
+  h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #434A5C;
+    background: #ffffff;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu li {
+  display: inline-block;
+  padding: 20px 35px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+  background-color: #0099cc;
+}
+.menu a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (min-width: 600px) {
+  .example {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .example {
+    font-size: 10px;
+  }  
+}
